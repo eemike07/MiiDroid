@@ -1,6 +1,5 @@
 dependencies:
   pre:
-    - ls -lart
     - echo y | android update sdk --no-ui --all --filter "extra-android-m2repository,extra-android-support"
 
 test:
